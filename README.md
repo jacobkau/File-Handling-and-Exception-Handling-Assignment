@@ -1,7 +1,7 @@
 # File-Handling-and-Exception-Handling-Assignment
 Week 4 assignment
 
-# File Read & Write Challenge 🖋️
+# File Read & Write Challenge
 # Write to a file
 with open("original.txt", "w") as file:
     file.write("This is the original content.\nIt will be modified.")
@@ -15,7 +15,7 @@ modified_content = content.replace("original", "modified")
 with open("modified.txt", "w") as new_file:
     new_file.write(modified_content)
 
-# Error Handling Lab 🧪
+# Error Handling Lab
 filename = input("Enter a filename to read: ")
 
 try:
